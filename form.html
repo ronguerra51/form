@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    <style>
+    body{
+        background-image: url(/images/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    #box{
+        background-color: rgba(47, 108, 143, 0.464);
+        border: solid .2cm rgb(9, 8, 7);
+        border-radius: 2cm;
+      }
+    
+    .carousel-item {
+        background-color: transparent;
+        border-radius: 2cm;
+    }
+    </style>
+</head>
+
+<body>
+
+  <div id="box" class="container mt-5">
+    <div id="carouselExampleFade" class="carousel slide" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div id="box" class="container">
+            <div class="row">
+              <div class="col text-center">
+                <h2>INFORMACION PERSONAL</h2>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-1"></div>
+              <div class="col-4">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Catalogo</label>
+                  <input type="text" class="form-control" id="catalogo" placeholder="Ingrese su catalogo">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Grado y arma</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su catalogo">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Nombre">
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Grado y arma</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Grado y Arma">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
+                  <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Lugar de Nacimiento</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su lugar de origen">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-4">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Religion</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="La religion que profesa">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Direcion</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su direccion actual">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                  <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su telefono de casa">
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1"placeholder="@gmail.com">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Celular</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su numero de celular">
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Correo Militar</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="CIT.TICS.@mindef.com">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">NIT</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Nit">
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Profesion</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su profesion">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Tipo de Sangre</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo ARH+">
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Cargo que elabora</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su cargo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inicia Carousel 2 -->
+        <div class="carousel-item">
+          <div id="box" class="container">
+            <div class="row">
+              <div class="col text-center">
+                <h2>INFORMACION PERSONAL</h2>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-1"></div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Fecha de alta en este Comando</label>
+                  <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Orden General No.</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese no. de orden general">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Fecha de Alta Como Oficial |
+                    Especialista</label>
+                  <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Promocion</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="No. de promocion">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">DPI</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Lugar de Extension</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre del Padre</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre del padre">
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Direcion </label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Direccion del padre">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre de la Madre</label>
+                  <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre de la madre">
+                </div>
+              </div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Direccion</label>
+                  <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Direccion de la madre">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-2">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Estado Civil</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccione</option>
+                    <option value="2">Casado(a)</option>
+                    <option value="3">Viudo(a)</option>
+                    <option value="1">Soltero(a)</option>
+                    <option value="4">Otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre del Conyugue</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese nombre de su conyuge">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3 mt-5">
+                  <label for="exampleFormControlInput1" class="form-label">Tiene Hijos</label>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">SI</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">NO</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Cuantos</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+              <div class="col-6"></div>
+            </div>       
+            </div>
+          </div>
+        </div>
+        <!-- Inicia Carousel 3 -->
+        <div class="carousel-item">
+          <div id="box" class="container">
+            <div class="row">
+              <div class="col text-center">
+                <h2>INFORMACION PERSONAL</h2>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-7">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre de hijo(a) 1</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre del hijo/a">
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                  </div>
+                </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre de hijo(a) 2</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre del hijo/a">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
+                  <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-7">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre de hijo(a) 3</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre del hijo/a">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Fecha de Nacimiento</label>
+                  <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3"></div>
+              <div class="col-7 bg-white rounded text-center">
+                <h4>OTRA INFORMACION</h4>
+              </div>
+              <div class="col-5"></div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Estatura</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="En metros">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Color de Cabello</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Tipo de Cabello </label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Peso</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="En libras">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Color de Ojos </label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="mb-3 mt-2">
+                  <label for="exampleFormControlInput1" class="form-label">Lunares, Cicatrices</label><br>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">SI</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">NO</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Ubicación:</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-5 bg-white rounded ml-5">
+                <h4>EN CASO DE EMERGENCIA AVISAR A:</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Parentesco</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el parentesco">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el nombre">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Parentesco</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el parentesco">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-4">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Celular</label>
+                  <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese el celular">
+                </div>
+              </div>
+              <div class="col-5"></div>
+              <div class="col-1">
+                <div class="d-grid gap-1 col-12 mx-auto mt-4">
+                  <button class="btn btn-primary" type="submit">ENVIAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+  </div>
+  </div>
+</body>
+</html>
